@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <WingBlank>
         <WhiteSpace />
-        <Button>default</Button>
+        <Button onPress={e => console.log('Default')}>default</Button>
         <WhiteSpace />
         <Button disabled>default disabled</Button>
         <WhiteSpace />
